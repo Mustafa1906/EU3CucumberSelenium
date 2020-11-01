@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 36.486 s <<< FAILURE! - in com.vytrack.runners.FailedTestRunner
+Sales manager user(Account types)  Time elapsed: 14.367 s  <<< FAILURE!
+java.lang.AssertionError
+
+login as a given user user10(Contacts page)  Time elapsed: 11.084 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Brenden Schneider]> but was:<[Toney Hegmann]>
+
+login as a given user storemanager85(Contacts page)  Time elapsed: 11.008 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Stephan Haley]> but was:<[Marcella Huels]>
+
